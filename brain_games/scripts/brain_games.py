@@ -5,4 +5,5 @@ def greet():
 def main():
     greet()
 
-main()
+if __name__ == "__main__":
+    main()
