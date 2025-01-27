@@ -10,4 +10,7 @@ build:
 package-install:
 	uv tool install dist/*.whl
 
-.PHONY: install brain-games build package-install
+upgrade: build
+	uv tool upgrade hexlet-code
+
+.PHONY: install brain-games build package-install upgrade
