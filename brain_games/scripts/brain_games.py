@@ -1,8 +1,10 @@
 # file: scripts/brain_games.py
-from brain_games.cli import welcome_user 
+from brain_games.cli import welcome_user
+
 
 def greet():
     print('Welcome to the Brain Games!')
+
 
 def main():
     greet()
