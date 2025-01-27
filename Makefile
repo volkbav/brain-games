@@ -13,4 +13,7 @@ package-install:
 upgrade: build
 	uv tool upgrade hexlet-code
 
-.PHONY: install brain-games build package-install upgrade
+lint:
+	uv run ruff check brain_games
+
+.PHONY: install brain-games build package-install upgrade lint
