@@ -10,7 +10,7 @@ def greet():
 
 
 # function to check if the number is even
-def brain_even():
+def game_brain_even():
     user_name = welcome_user()
 #    print(f'user_name = {user_name}')
     print('Answer "yes" if the number is even, otherwise answer "no".')
@@ -39,7 +39,7 @@ def brain_even():
 
 def main():
     greet()
-    brain_even()
+    game_brain_even()
 
 
 if __name__ == "__main__":
