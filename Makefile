@@ -16,4 +16,10 @@ upgrade: build
 lint:
 	uv run ruff check brain_games
 
-.PHONY: install brain-games build package-install upgrade lint
+fix_lint:
+	uv run ruff check --fix brain_games
+
+brain-even:
+	uv run brain-even
+
+.PHONY: install brain-games build package-install upgrade lint fix_lint brain-even
