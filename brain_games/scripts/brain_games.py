@@ -1,6 +1,9 @@
 # file: scripts/brain_games.py
 from brain_games.cli import welcome_user
-from brain_games.cli import greet
+
+# import greeting from my_functions.py
+from brain_games.src.my_functions import greet
+# ----------------------------------------------
 
 
 def main():

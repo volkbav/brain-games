@@ -2,12 +2,9 @@
 # ----------------------------------------------
 
 # import game logic from my_functions.py
-from brain_games.src.my_functions import game_brain_even
+from brain_games.src.my_functions import *
 # ----------------------------------------------
 
-# import the function to greet the user
-from brain_games.cli import greet
-# ----------------------------------------------
 
 def main():
     greet()

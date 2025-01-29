@@ -3,7 +3,14 @@ import random
 # import welcome_user function from cli.py
 from brain_games.cli import welcome_user
 
+# function to greet user
+def greet():
+    print('Welcome to the Brain Games!')
+# ----------------------------------------------
 
+# --- Game logic ---
+
+# function to check the answer   
 def check_answer(answer, correct_answer, user_name):
     if answer == correct_answer:
         print('Correct!')
@@ -16,11 +23,7 @@ def check_answer(answer, correct_answer, user_name):
         return False
 # ---------------------------------------------- 
 
-# Game logic
-# ----------------------------------------------    
-
 # function to check if the number is even
-
 def game_brain_even():
     user_name = welcome_user()
 #    print(f'user_name = {user_name}')
