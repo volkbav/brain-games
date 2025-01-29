@@ -8,10 +8,9 @@ build:
 	uv build
 
 package-install:
-	uv tool install dist/*.whl
+	uv tool install --force dist/*.whl
 
-upgrade: build
-	uv tool upgrade hexlet-code
+upgrade: build package-install
 
 lint:
 	uv run ruff check brain_games
