@@ -6,3 +6,6 @@ def welcome_user():
     print(f'Hello, {name}!')
     return name
 
+# function to greet user
+def greet():
+    print('Welcome to the Brain Games!')
