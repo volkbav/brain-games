@@ -1,6 +1,8 @@
 # file: scripts/brain_even.py
 import random
 
+
+from brain_games.src.my_functions import check_answer
 from brain_games.cli import welcome_user
 
 
@@ -24,15 +26,9 @@ def game_brain_even():
             correct_answer = 'yes'
         else:
             correct_answer = 'no'
-# check if the answer is correct
-        if answer == correct_answer:
-            print('Correct!')
+        if check_answer(answer, correct_answer, user_name):
             continue
-        elif answer != correct_answer:
-            print(
-                f"'{answer}' is wrong answer ;(. "
-                f"Correct answer was '{correct_answer}'")
-            print(f"Let's try again, {user_name}!")
+        else:
             return
     print(f'Congratulations, {user_name}!')
 
