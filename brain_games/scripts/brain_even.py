@@ -2,7 +2,7 @@
 # ----------------------------------------------
 
 # import game logic from my_functions.py
-from brain_games.src.my_functions import *
+from brain_games.games.my_functions import *
 # ----------------------------------------------
 
 

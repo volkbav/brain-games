@@ -1,4 +1,6 @@
+# function to use in games
 
+#import function to generate random numbers
 import random
 # import welcome_user function from cli.py
 from brain_games.cli import welcome_user
