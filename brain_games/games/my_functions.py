@@ -1,6 +1,6 @@
 # function to use in games
 
-#import function to generate random numbers
+# import function to generate random numbers
 import random
 # import welcome_user function from cli.py
 from brain_games.cli import welcome_user
@@ -8,9 +8,7 @@ from brain_games.cli import welcome_user
 # function to greet user
 def greet():
     print('Welcome to the Brain Games!')
-# ----------------------------------------------
 
-# --- Game logic ---
 
 # function to check the answer   
 def check_answer(answer, correct_answer, user_name):
@@ -23,46 +21,4 @@ def check_answer(answer, correct_answer, user_name):
             f"Correct answer was '{correct_answer}'")
         print(f"Let's try again, {user_name}!")
         return False
-# ---------------------------------------------- 
-
-# function to check if the number is even
-def game_brain_even():
-    user_name = welcome_user()
-#    print(f'user_name = {user_name}')
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-# set answer and correct_answer to empty string to enter the loop
-    answer = ''
-    correct_answer = ''
-    for i in range(3):
-        number = random.randint(1, 100)
-        answer = input(f'Question: {number}\nYour answer: ')        
-        if number % 2 == 0:
-            correct_answer = 'yes'
-        else:
-            correct_answer = 'no'
-        if check_answer(answer, correct_answer, user_name):
-            continue
-        else:
-            return
-    print(f'Congratulations, {user_name}!')
-# ---------------------------------------------- 
-
-#function to calculate the expression
-def game_brain_calc():
-    user_name = welcome_user()
-    print('What is the result of the expression?')
-    # set answer and correct_answer to empty string to enter the loop
-    answer = ''
-    correct_answer = ''
-    for i in range(3):
-        number1 = random.randint(1, 100)
-        number2 = random.randint(1, 100)
-        symbol = random.choice(['+', '-', '*'])
-        correct_answer = str(eval(f'{number1} {symbol} {number2}'))
-        print(f'Question: {number1} {symbol} {number2}')
-        answer = input(f'Your answer: ')
-        if check_answer(answer, correct_answer, user_name):
-            continue
-        else:
-            return
-    print(f'Congratulations, {user_name}!')
+ 

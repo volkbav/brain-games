@@ -1,13 +1,12 @@
 # file: scripts/brain_even.py
-# ----------------------------------------------
+
 
 # import game logic from my_functions.py
-from brain_games.games.my_functions import *
+from brain_games.games.logic_even import game_brain_even
 # ----------------------------------------------
 
 
 def main():
-    greet()
     game_brain_even()
 
 
