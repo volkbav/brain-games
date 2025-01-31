@@ -27,4 +27,7 @@ brain-calc:
 brain-gcd:
 	uv run brain-gcd
 
-.PHONY: brain-gcd install brain-games build package-install upgrade lint fix_lint brain-even brain-calc
+brain-progression:
+	uv run brain-progression
+
+.PHONY: brain-progression brain-gcd install brain-games build package-install upgrade lint fix_lint brain-even brain-calc
