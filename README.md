@@ -42,4 +42,5 @@ where `<game name>` - name of games. It's can be:<br/>
 `brain-games` - greetig player<br/>
 `brain-even` - generate random number and ask user if it is even<br/>
 `brain-calc` - generate two numbers and ask calculate<br/>
-`brain-gcd` - generate two numbers and ask find greatest common divisor
+`brain-gcd` - generate two numbers and ask find greatest common divisor<br/>
+`brain-progression` - generate progression and ask find missing number
