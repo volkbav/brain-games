@@ -15,7 +15,10 @@ I present a set of mind games "brain-games"
 [![asciicast](https://asciinema.org/a/dibJr6I8zcZWuoFyTYojH2p37.svg)](https://asciinema.org/a/dibJr6I8zcZWuoFyTYojH2p37)
 
 ## brain-progression
-[![asciicast](https://asciinema.org/a/k4mAacnyVu56yQxGh1ZYAQjs1.svg)](https://asciinema.org/a/k4mAacnyVu56yQxGh1ZYAQjs1)
+[![asciicast](https://asciinema.org/a/zBPjAiicPsFc6r6bcIJMc5Y64.svg)](https://asciinema.org/a/zBPjAiicPsFc6r6bcIJMc5Y64)
+
+## brain-prime
+[![asciicast](https://asciinema.org/a/9prcHFh5TqSSSpVAF6zO8PIbv.svg)](https://asciinema.org/a/9prcHFh5TqSSSpVAF6zO8PIbv)
 
 # Installation
 You will need:
@@ -43,4 +46,5 @@ where `<game name>` - name of games. It's can be:<br/>
 `brain-even` - generate random number and ask user if it is even<br/>
 `brain-calc` - generate two numbers and ask calculate<br/>
 `brain-gcd` - generate two numbers and ask find greatest common divisor<br/>
-`brain-progression` - generate progression and ask find missing number
+`brain-progression` - generate progression and ask find missing number<br/>
+`brain-prime` - generate random number and ask if it is prime
