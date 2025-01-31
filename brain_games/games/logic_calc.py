@@ -1,6 +1,5 @@
 # import function to generate random numbers
 import random
-from brain_games.games import my_functions
 
 QUESTION = 'What is the result of the expression?'
 
