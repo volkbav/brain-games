@@ -1,7 +1,5 @@
 # function to use in games
 
-# import function to generate random numbers
-import random
 # import welcome_user function from cli.py
 from brain_games.cli import welcome_user
 
@@ -22,3 +20,19 @@ def check_answer(answer, correct_answer, user_name):
         print(f"Let's try again, {user_name}!")
         return False
  
+def game(game_name):
+#    import function from game_name    
+    greet()
+    user_name = welcome_user()
+    print(f'{game_name.QUESTION}')
+
+
+# loop to play the game
+    for i in range(3):
+        answer, correct_answer = game_name.logic_game()
+        if check_answer(answer, correct_answer, user_name):
+            continue
+        else:
+            return
+    
+    print(f'Congratulations, {user_name}!')
