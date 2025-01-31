@@ -33,10 +33,10 @@ make package-install
 ```
 
 # How to play
-to start the game, you need to run the command: `make <game name>`\
+to start the game, you need to run the command: `make <game name>`
 
 where `<game name>` - name of games. It's can be:<br/>
-`brain-games` - greetig player
-`brain-even` - generate random number and ask user if it is even
-`brain-calc` - generate two numbers and ask calculate
+`brain-games` - greetig player<br/>
+`brain-even` - generate random number and ask user if it is even<br/>
+`brain-calc` - generate two numbers and ask calculate<br/>
 `brain-gcd` - generate two numbers and ask find greatest common divisor
