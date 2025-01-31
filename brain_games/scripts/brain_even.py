@@ -1,4 +1,4 @@
-# file: scripts/brain_calc.py
+# file: scripts/brain_even.py
 
 # import module to start the game
 from brain_games.games import logic_even
