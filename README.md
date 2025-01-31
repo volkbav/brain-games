@@ -14,6 +14,9 @@ I present a set of mind games "brain-games"
 ## brain-gcd
 [![asciicast](https://asciinema.org/a/dibJr6I8zcZWuoFyTYojH2p37.svg)](https://asciinema.org/a/dibJr6I8zcZWuoFyTYojH2p37)
 
+## brain-progression
+[![asciicast](https://asciinema.org/a/k4mAacnyVu56yQxGh1ZYAQjs1.svg)](https://asciinema.org/a/k4mAacnyVu56yQxGh1ZYAQjs1)
+
 # Installation
 You will need:
 1. install uv package manager.
