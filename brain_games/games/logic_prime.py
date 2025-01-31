@@ -3,6 +3,7 @@ from random import randint
 
 QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
+
 # generate random number and check if it is prime
 def logic_game():
     number = randint(1, 100)
