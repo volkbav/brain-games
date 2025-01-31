@@ -30,4 +30,7 @@ brain-gcd:
 brain-progression:
 	uv run brain-progression
 
-.PHONY: brain-progression brain-gcd install brain-games build package-install upgrade lint fix_lint brain-even brain-calc
+brain-prime:
+	uv run brain-prime
+
+.PHONY: brain-prime brain-progression brain-gcd install brain-games build package-install upgrade lint fix_lint brain-even brain-calc
