@@ -1,7 +1,6 @@
-# function to use in games
-
 # import welcome_user function from cli.py
 from brain_games.cli import welcome_user
+
 
 # function to greet user
 def greet():
@@ -16,16 +15,16 @@ def check_answer(answer, correct_answer, user_name):
     else:
         print(
             f"'{answer}' is wrong answer ;(. "
-            f"Correct answer was '{correct_answer}'")
-        print(f"Let's try again, {user_name}!")
+            f"Correct answer was '{correct_answer}'"
+            f"\nLet's try again, {user_name}!")
         return False
  
-def game(game_name):
-#    import function from game_name    
+
+# function to play the game 
+def game(game_name):  
     greet()
     user_name = welcome_user()
     print(f'{game_name.QUESTION}')
-
 
 # loop to play the game
     for i in range(3):

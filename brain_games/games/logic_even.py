@@ -1,11 +1,12 @@
 # import function to generate random numbers
-import random
+from random import randint
 
 QUESTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
+
 # generate random number and ask user if it is even
 def logic_game():
-    number = random.randint(1, 100)
+    number = randint(1, 100)
     answer = input(f'Question: {number}\nYour answer: ')
 
     if number % 2 == 0:
