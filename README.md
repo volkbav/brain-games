@@ -23,7 +23,8 @@ I present a set of mind games "brain-games"
 # Installation
 You will need:
 1. install uv package manager.
-You can find how to install uv here: https://github.com/Hexlet/ru-instructions/blob/main/uv.md
+You can find how to install uv here (russian): https://github.com/Hexlet/ru-instructions/blob/main/uv.md
+or here (english): https://docs.astral.sh/uv/#getting-started
 2. install git 
 3. clone repository
 ```
@@ -42,9 +43,9 @@ make package-install
 to start the game, you need to run the command: `make <game name>`
 
 where `<game name>` - name of games. It's can be:<br/>
-`brain-games` - greetig player<br/>
-`brain-even` - generate random number and ask user if it is even<br/>
 `brain-calc` - generate two numbers and ask calculate<br/>
+`brain-even` - generate random number and ask user if it is even<br/>
+`brain-games` - greetig player<br/>
 `brain-gcd` - generate two numbers and ask find greatest common divisor<br/>
+`brain-prime` - generate random number and ask if it is prime<br/>
 `brain-progression` - generate progression and ask find missing number<br/>
-`brain-prime` - generate random number and ask if it is prime
