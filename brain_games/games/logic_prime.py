@@ -9,9 +9,10 @@ def logic_game():
     number = randint(1, 100)
     count = 0
     divider = 2
-    while divider ** 2 <= number and count != 1:
+    while divider ** 2 <= number:
         if number % divider == 0:
             count = 1
+            break
         divider += 1
     if count == 1:
         correct_answer = 'no'
