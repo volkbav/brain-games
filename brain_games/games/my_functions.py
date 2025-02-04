@@ -1,6 +1,7 @@
 # import welcome_user function from cli.py
 from brain_games.cli import welcome_user
 
+COUNT_ROUND = 3
 
 # function to greet user
 def greet():
@@ -27,7 +28,7 @@ def game(game_name):
     print(f'{game_name.QUESTION}')
 
 # loop to play the game
-    for i in range(3):
+    for i in range(COUNT_ROUND):
         answer, correct_answer = game_name.logic_game()
         if check_answer(answer, correct_answer, user_name):
             continue
