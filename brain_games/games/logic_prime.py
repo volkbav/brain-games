@@ -1,15 +1,17 @@
-# import function to generate random numbers
 from random import randint
 
 QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+START_RANGE = 1
+END_RANGE = 100
 
 
 # generate random number and check if it is prime
 def logic_game():
-    number = randint(1, 100)
+    number = randint(START_RANGE, END_RANGE)
     count = 0
     divider = 2
-    while divider ** 2 <= number:
+    DEGREE = 2
+    while divider ** DEGREE <= number:
         if number % divider == 0:
             count = 1
             break

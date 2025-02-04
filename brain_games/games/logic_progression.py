@@ -1,14 +1,19 @@
-# import function to generate random numbers
 from random import randint
 
 QUESTION = 'What number is missing in the progression?'
+START_RANGE = 1
+END_RANGE = 100
+START_STEP = 1
+END_STEP = 10
+START_HIDEN_NUMBER = 0
+END_HIDEN_NUMBER = 9
 
 
 def logic_game():
     progression = []
-    step = randint(1, 10)
-    start = randint(1, 100)
-    hiden_number_index = randint(0, 9)
+    step = randint(START_STEP, END_STEP)
+    start = randint(START_RANGE, END_RANGE)
+    hiden_number_index = randint(START_HIDEN_NUMBER, END_HIDEN_NUMBER)
 # generate progression and save correct answer
     for i in range(10):
         progression.append(start + step * i)
