@@ -27,14 +27,11 @@ You can find how to install uv here (russian): https://github.com/Hexlet/ru-inst
 or here (english): https://docs.astral.sh/uv/#getting-started
 2. install git 
 3. clone repository
-```
-git clone git@github.com:volkbav/python-project-49.git
-```
-3. sync packeges
+4. sync packeges
 ```
 make install
 ```
-4. install games
+5. install games
 ```
 make package-install
 ```
